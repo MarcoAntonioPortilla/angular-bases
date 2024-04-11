@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
+//clase
 export class AppComponent {
-  title = 'bases';
+  //atributos
+  public title: string = 'Hola Mundo';
+
 }
